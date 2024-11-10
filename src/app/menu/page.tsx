@@ -6,11 +6,11 @@ import menu3 from "../../../public/cappaccino-top-removebg-preview (1).png"
 import menu4 from "../../../public/cy-removebg-preview.png"
 export default function MenuDetail() {
     return (
-       <div>
+       <div className="w-fit">
         <center>
   <h1 className="text-base sm:text-3xl my-10 font-semibold text-red-600">We Have All What You Want </h1>
   </center>
-<div className="w-{80%} flex flex-wrap my-8 px-10">
+<div className="w-{80%} flex flex-wrap my-8 px-10 w-f">
   
         <div className="w-52 border-2 rounded-2xl px-5 mx-auto my-3">
            <Image className="hover:rotate-45 transition-all"

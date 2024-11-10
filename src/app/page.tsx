@@ -8,10 +8,10 @@ import Menu from "@/components/menu";
 
 export default function Home() {
   return (
-     <div>
+     <div className="w-fit mx-auto">
  
   
-<div className="w-{90%} sm:w-{80%} md:w-full flex flex-col-reverse flex-wrap sm:flex-row justify-between  ml-{5%} sm:ml-{11%}   mt-3 sm:mt-5 bg-gradient-to-r from-yellow-700 to-yellow-950 border-2 rounded-3xl py-2">
+<div className="w-{90%} sm:w-{80%} md:w-full flex flex-col-reverse flex-wrap sm:flex-row justify-between  ml-{5%} sm:ml-{11%}   mt-3 sm:mt-5 bg-gradient-to-r from-yellow-700 to-yellow-950 border-2 rounded-3xl py-2 ">
     <div className="w-{80%} sm:w-96 md:pl-{14%} md:pt{5%} md:pb-{20%} m-auto text-center font-medium p-5">
     <h2 className="md:text-2xl font-mono text-white ">Its time to have a fantastic taste with every sip</h2>
     <h1 className="md:text-3xl font-semibold text-red-600">Welcome To<br /> <span /><b>CoffeShop !</b></h1>

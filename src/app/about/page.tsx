@@ -4,8 +4,8 @@ export default function About() {
     return (
        
         ///////////////Light side///////////////////////////////////////
-        <div className=" sm:flex items-center justify-around bg-gradient-to-r from-yellow-700 to-yellow-950 border-2 rounded-3xl mt-2">
-            <div className="opacity-30   sm:w-1/3" >
+        <div className="  sm:flex items-center justify-around bg-gradient-to-r from-yellow-700 to-yellow-950 border-2 rounded-3xl mt-2">
+            <div className="opacity-30  sm:w-1/3" >
               
             
                 <Image className=" "
