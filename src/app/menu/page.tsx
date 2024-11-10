@@ -6,7 +6,7 @@ import menu3 from "../../../public/cappaccino-top-removebg-preview (1).png"
 import menu4 from "../../../public/cy-removebg-preview.png"
 export default function MenuDetail() {
     return (
-       <div className="w-fit">
+       <div className="">
         <center>
   <h1 className="text-base sm:text-3xl my-10 font-semibold text-red-600">We Have All What You Want </h1>
   </center>

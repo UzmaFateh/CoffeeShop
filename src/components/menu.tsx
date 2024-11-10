@@ -7,7 +7,7 @@ import menu4 from "../../public/coffe-1-removebg-preview.png"
 
 export default function Menu() {
     return (
-<div className="w-fit">
+<div className="">
 
     <div className="w-{80%} flex flex-wrap my-8 px-10  ">
         <div className="w-52 border-2 rounded-2xl px-5 mx-auto my-3">

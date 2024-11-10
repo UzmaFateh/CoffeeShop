@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
 <div>
         <div
-            className="flex flex-col justify-between  md:flex-row  :my-4 md:my-4 lg:-mb-6 px-4   bg-white mx-auto w-fit"
+            className="flex flex-col justify-between  md:flex-row  :my-4 md:my-4 lg:-mb-6 px-4   bg-white "
             style={{
                 boxShadow: " 1px,1px 20px 20px blue)",
 

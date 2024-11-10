@@ -8,7 +8,7 @@ import Menu from "@/components/menu";
 
 export default function Home() {
   return (
-     <div className="w-fit mx-auto">
+     <div className="">
  
   
 <div className="w-{90%} sm:w-{80%} md:w-full flex flex-col-reverse flex-wrap sm:flex-row justify-between  ml-{5%} sm:ml-{11%}   mt-3 sm:mt-5 bg-gradient-to-r from-yellow-700 to-yellow-950 border-2 rounded-3xl py-2 ">
