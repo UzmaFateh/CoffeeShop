@@ -9,8 +9,8 @@ export default function Menu() {
     return (
 <div>
 
-    <div className="w-{80%} flex my-8 px-10">
-        <div className="w-52 border-2 rounded-2xl px-5 mx-auto">
+    <div className="w-{80%} flex flex-wrap my-8 px-10 ">
+        <div className="w-52 border-2 rounded-2xl px-5 mx-auto my-3">
            <Image className="hover:rotate-45 transition-all"
            src={menu1}
            alt="picture"
@@ -19,7 +19,7 @@ export default function Menu() {
              adipisicing elit. Labore dolorum nulla minus esse cupiditate, 
              iure fuga iste atque soluta molestias.</p>
         </div>
-        <div className="w-52 border-2 rounded-2xl px-5 mx-auto"> 
+        <div className="w-52 border-2 rounded-2xl px-5 mx-auto  my-3"> 
             <Image className="hover:rotate-45 transition-all"
            src={menu2}
            alt="picture"
@@ -27,7 +27,7 @@ export default function Menu() {
             <p>Lorem ipsum dolor sit amet consectetur
              adipisicing elit. Labore dolorum nulla minus esse cupiditate, 
              iure fuga iste atque soluta molestias.</p></div>
-        <div className="w-52 border-2 rounded-2xl px-5 mx-auto"> 
+        <div className="w-52 border-2 rounded-2xl px-5 mx-auto  my-3"> 
             <Image className="hover:rotate-45 transition-all"
            src={menu3}
            alt="picture"
@@ -35,7 +35,7 @@ export default function Menu() {
             <p>Lorem ipsum dolor sit amet consectetur
              adipisicing elit. Labore dolorum nulla minus esse cupiditate, 
              iure fuga iste atque soluta molestias.</p></div>
-        <div className="w-52 border-2 rounded-2xl px-5 mx-auto"> 
+        <div className="w-52 border-2 rounded-2xl px-5 mx-auto  my-3"> 
             <Image className="hover:rotate-45 transition-all"
            src={menu4}
            alt="picture"

@@ -12,14 +12,14 @@ const Navbar = () => {
                 boxShadow: " 1px,1px 20px 20px blue)",
 
             }}>
-            <div className="text-center text-5xl ">
+            <div className="text-center text-5xl -mt-6  py-2">
                 <div className="flex border-b-2 border-black sm:border-0 md:border-0 lg-border-0 xl:border-0 py-2 ">
                     <Image className="mr-10"
                         src={logo}
                         alt="machine"
                         height={100}
                         width={100} />
-                    <h4 className="-ml-12 mt-9 text-4xl ">CoffeeShope</h4>
+                    <h4 className="-ml-12  mt-9 text-3xl sm:text-4xl pt-1">CoffeeShope</h4>
                     
                 </div>
 

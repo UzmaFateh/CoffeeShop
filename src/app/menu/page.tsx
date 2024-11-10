@@ -8,11 +8,11 @@ export default function MenuDetail() {
     return (
        <div>
         <center>
-  <h1 className="text-3xl my-10 font-semibold text-red-600">We Have All What You Want </h1>
+  <h1 className="text-base sm:text-3xl my-10 font-semibold text-red-600">We Have All What You Want </h1>
   </center>
-<div className="w-{80%} flex my-8 px-10">
+<div className="w-{80%} flex flex-wrap my-8 px-10">
   
-        <div className="w-52 border-2 rounded-2xl px-5 mx-auto">
+        <div className="w-52 border-2 rounded-2xl px-5 mx-auto my-3">
            <Image className="hover:rotate-45 transition-all"
            src={menu1}
            alt="picture"
@@ -21,7 +21,7 @@ export default function MenuDetail() {
              adipisicing elit. Labore dolorum nulla minus esse cupiditate, 
              iure fuga iste atque soluta molestias.</p>
         </div>
-        <div className="w-52 border-2 rounded-2xl px-5 mx-auto"> 
+        <div className="w-52 border-2 rounded-2xl px-5 mx-auto my-3"> 
             <Image className="hover:rotate-45 transition-all"
            src={menu2}
            alt="picture"
@@ -29,7 +29,7 @@ export default function MenuDetail() {
             <p>Lorem ipsum dolor sit amet consectetur
              adipisicing elit. Labore dolorum nulla minus esse cupiditate, 
              iure fuga iste atque soluta molestias.</p></div>
-        <div className="w-52 border-2 rounded-2xl px-5 mx-auto"> 
+        <div className="w-52 border-2 rounded-2xl px-5 mx-auto my-3"> 
             <Image className="hover:rotate-45 transition-all"
            src={menu3}
            alt="picture"
@@ -37,7 +37,7 @@ export default function MenuDetail() {
             <p>Lorem ipsum dolor sit amet consectetur
              adipisicing elit. Labore dolorum nulla minus esse cupiditate, 
              iure fuga iste atque soluta molestias.</p></div>
-        <div className="w-52 border-2 rounded-2xl px-5 mx-auto"> 
+        <div className="w-52 border-2 rounded-2xl px-5 mx-auto my-3"> 
             <Image className="hover:rotate-45 transition-all"
            src={menu4}
            alt="picture"

@@ -11,7 +11,7 @@ export default function Home() {
      <div>
  
   
-<div className="w-{90%} sm:w-{80%} md:w-full flex flex-col-reverse  sm:flex-row justify-between  ml-{5%} sm:ml-{11%}   mt-3 sm:mt-5 bg-gradient-to-r from-yellow-700 to-yellow-950 border-2 rounded-3xl py-2">
+<div className="w-{90%} sm:w-{80%} md:w-full flex flex-col-reverse flex-wrap sm:flex-row justify-between  ml-{5%} sm:ml-{11%}   mt-3 sm:mt-5 bg-gradient-to-r from-yellow-700 to-yellow-950 border-2 rounded-3xl py-2">
     <div className="w-{80%} sm:w-96 md:pl-{14%} md:pt{5%} md:pb-{20%} m-auto text-center font-medium p-5">
     <h2 className="md:text-2xl font-mono text-white ">Its time to have a fantastic taste with every sip</h2>
     <h1 className="md:text-3xl font-semibold text-red-600">Welcome To<br /> <span /><b>CoffeShop !</b></h1>
@@ -25,9 +25,9 @@ export default function Home() {
 <center>
   <h1 className="text-3xl my-10 font-semibold text-red-600">We are Famous For</h1>
   </center>
-<div className="w-{80%} flex my-8 px-10">
+<div className="w-{80%} flex flex-wrap  my-8 px-10">
   
-        <div className="w-52 border-2 rounded-2xl px-5 mx-auto">
+        <div className="w-52 border-2 rounded-2xl px-5 mx-auto my-3">
            <Image className="hover:rotate-45 transition-all"
            src={menu1}
            alt="picture"
@@ -36,7 +36,7 @@ export default function Home() {
              adipisicing elit. Labore dolorum nulla minus esse cupiditate, 
              iure fuga iste atque soluta molestias.</p>
         </div>
-        <div className="w-52 border-2 rounded-2xl px-5 mx-auto"> 
+        <div className="w-52 border-2 rounded-2xl px-5 mx-auto  my-3"> 
             <Image className="hover:rotate-45 transition-all"
            src={menu2}
            alt="picture"
@@ -44,7 +44,7 @@ export default function Home() {
             <p>Lorem ipsum dolor sit amet consectetur
              adipisicing elit. Labore dolorum nulla minus esse cupiditate, 
              iure fuga iste atque soluta molestias.</p></div>
-        <div className="w-52 border-2 rounded-2xl px-5 mx-auto"> 
+        <div className="w-52 border-2 rounded-2xl px-5 mx-auto my-3"> 
             <Image className="hover:rotate-45 transition-all"
            src={menu3}
            alt="picture"
@@ -52,7 +52,7 @@ export default function Home() {
             <p>Lorem ipsum dolor sit amet consectetur
              adipisicing elit. Labore dolorum nulla minus esse cupiditate, 
              iure fuga iste atque soluta molestias.</p></div>
-        <div className="w-52 border-2 rounded-2xl px-5 mx-auto"> 
+        <div className="w-52 border-2 rounded-2xl px-5 mx-auto my-3"> 
             <Image className="hover:rotate-45 transition-all"
            src={menu4}
            alt="picture"
