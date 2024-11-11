@@ -18,6 +18,9 @@ export default function Menu() {
            <p>Lorem ipsum dolor sit amet consectetur
              adipisicing elit. Labore dolorum nulla minus esse cupiditate, 
              iure fuga iste atque soluta molestias.</p>
+             <center>
+                <button className="w-28 h-8 bg-red-600 rounded-md my-4 text-white" >Order Now</button>
+             </center>
         </div>
         <div className="w-52 border-2 rounded-2xl px-5 mx-auto  my-3"> 
             <Image className="hover:rotate-45 transition-all"
@@ -26,7 +29,11 @@ export default function Menu() {
            width={180} />
             <p>Lorem ipsum dolor sit amet consectetur
              adipisicing elit. Labore dolorum nulla minus esse cupiditate, 
-             iure fuga iste atque soluta molestias.</p></div>
+             iure fuga iste atque soluta molestias.</p>
+             <center>
+                <button className="w-28 h-8 bg-red-600 rounded-md my-4 text-white" >Order Now</button>
+             </center>
+             </div>
         <div className="w-52 border-2 rounded-2xl px-5 mx-auto  my-3"> 
             <Image className="hover:rotate-45 transition-all"
            src={menu3}
@@ -34,7 +41,11 @@ export default function Menu() {
            width={180} />
             <p>Lorem ipsum dolor sit amet consectetur
              adipisicing elit. Labore dolorum nulla minus esse cupiditate, 
-             iure fuga iste atque soluta molestias.</p></div>
+             iure fuga iste atque soluta molestias.</p>
+             <center>
+                <button className="w-28 h-8 bg-red-600 rounded-md my-4 text-white" >Order Now</button>
+             </center>
+             </div>
         <div className="w-52 border-2 rounded-2xl px-5 mx-auto  my-3"> 
             <Image className="hover:rotate-45 transition-all"
            src={menu4}
@@ -42,7 +53,11 @@ export default function Menu() {
            width={180} />
             <p>Lorem ipsum dolor sit amet consectetur
              adipisicing elit. Labore dolorum nulla minus esse cupiditate, 
-             iure fuga iste atque soluta molestias.</p></div>
+             iure fuga iste atque soluta molestias.</p>
+             <center>
+                <button className="w-28 h-8 bg-red-600 rounded-md my-4 text-white" >Order Now</button>
+             </center>
+             </div>
     </div>
     </div>
    );

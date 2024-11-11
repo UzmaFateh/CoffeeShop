@@ -35,6 +35,9 @@ export default function Home() {
            <p>Lorem ipsum dolor sit amet consectetur
              adipisicing elit. Labore dolorum nulla minus esse cupiditate, 
              iure fuga iste atque soluta molestias.</p>
+             <center>
+                <button className="w-28 h-8 bg-red-600 rounded-md my-4 text-white" >Order Now</button>
+             </center>
         </div>
         <div className="w-52 border-2 rounded-2xl px-5 mx-auto  my-3"> 
             <Image className="hover:rotate-45 transition-all"
@@ -43,7 +46,11 @@ export default function Home() {
            width={180} />
             <p>Lorem ipsum dolor sit amet consectetur
              adipisicing elit. Labore dolorum nulla minus esse cupiditate, 
-             iure fuga iste atque soluta molestias.</p></div>
+             iure fuga iste atque soluta molestias.</p>
+             <center>
+                <button className="w-28 h-8 bg-red-600 rounded-md my-4 text-white" >Order Now</button>
+             </center>
+             </div>
         <div className="w-52 border-2 rounded-2xl px-5 mx-auto my-3"> 
             <Image className="hover:rotate-45 transition-all"
            src={menu3}
@@ -51,7 +58,11 @@ export default function Home() {
            width={180} />
             <p>Lorem ipsum dolor sit amet consectetur
              adipisicing elit. Labore dolorum nulla minus esse cupiditate, 
-             iure fuga iste atque soluta molestias.</p></div>
+             iure fuga iste atque soluta molestias.</p>
+             <center>
+                <button className="w-28 h-8 bg-red-600 rounded-md my-4 text-white" >Order Now</button>
+             </center>
+             </div>
         <div className="w-52 border-2 rounded-2xl px-5 mx-auto my-3"> 
             <Image className="hover:rotate-45 transition-all"
            src={menu4}
@@ -59,18 +70,22 @@ export default function Home() {
            width={180} />
             <p>Lorem ipsum dolor sit amet consectetur
              adipisicing elit. Labore dolorum nulla minus esse cupiditate, 
-             iure fuga iste atque soluta molestias.</p></div>
+             iure fuga iste atque soluta molestias.</p>
+             <center>
+                <button className="w-28 h-8 bg-red-600 rounded-md my-4 text-white" >Order Now</button>
+             </center>
+             </div>
     </div>
 
     <center>
       <button className="w-44 h-12 border-2 rounded-xl my-8 
-      bg-gradient-to-r from-yellow-700 to-yellow-950"><a href="menu">See More</a></button>
+      bg-gradient-to-r from-yellow-700 to-yellow-950 text-white"><a href="menu">See More</a></button>
       </center>
       <center><h1 className="text-3xl my-10 font-semibold text-red-600">Menu</h1></center>
 <Menu/>
 
 <center><button className="w-44 h-12 border-2 rounded-xl my-8
-bg-gradient-to-r from-yellow-700 to-yellow-950"><a href="menu">See More</a></button></center>
+bg-gradient-to-r from-yellow-700 to-yellow-950 text-white"><a href="menu">See More</a></button></center>
 
 </div>
 
