@@ -19,7 +19,7 @@ const Navbar = () => {
                         alt="machine"
                         height={100}
                         width={100} />
-                    <h4 className="-ml-12  mt-9 text-3xl sm:text-4xl pt-1">CoffeeShope</h4>
+                    <h4 className="-ml-12  mt-9 text-3xl sm:text-4xl pt-1">CoffeeShop</h4>
                     
                 </div>
 
